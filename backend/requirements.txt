@@ -1,1 +1,8 @@
-commit the deletion
+fastapi
+uvicorn[standard]
+numpy
+pandas
+scikit-learn
+joblib
+h5py
+tensorflow-cpu==2.15.0
