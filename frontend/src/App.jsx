@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.title}>AI Investment Intelligence Dashboard</h1>
+      <h1 style={styles.title}>Sandrapalli's AI Investment Dashboard</h1>
 
       <div style={styles.inputContainer}>
         <input

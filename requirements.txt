@@ -1,7 +1,15 @@
 streamlit
+<<<<<<< HEAD
 tensorflow-cpu==2.15.0
 numpy
+=======
+>>>>>>> cefc294 (Update requirements and frontend)
 pandas
+numpy
 scikit-learn
+<<<<<<< HEAD
 joblib
 h5py
+=======
+joblib
+>>>>>>> cefc294 (Update requirements and frontend)
