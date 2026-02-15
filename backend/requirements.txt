@@ -3,6 +3,7 @@ uvicorn
 numpy
 pandas
 scikit-learn
-joblib
+tensorflow
 h5py
-tensorflow-cpu==2.15.0
+joblib
+yfinance
