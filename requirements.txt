@@ -1,8 +1,7 @@
-fastapi
-uvicorn
+streamlit
+tensorflow-cpu==2.15.0
 numpy
 pandas
 scikit-learn
-tensorflow
 joblib
 h5py
