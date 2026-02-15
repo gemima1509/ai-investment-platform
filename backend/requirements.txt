@@ -1,9 +1,1 @@
-fastapi
-uvicorn
-numpy
-pandas
-scikit-learn
-tensorflow
-h5py
-joblib
-yfinance
+
