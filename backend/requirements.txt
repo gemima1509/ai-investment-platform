@@ -1,8 +1,8 @@
 fastapi
 uvicorn
-tensorflow
 numpy
 pandas
 scikit-learn
-yfinance
 joblib
+h5py
+tensorflow-cpu==2.15.0
