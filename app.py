@@ -1,11 +1,22 @@
 import streamlit as st
+
+st.set_page_config(
+    page_title="NexusTrade",
+    page_icon="📈"
+)
+
+
+
+
+
+import streamlit as st
 import numpy as np
 import joblib
 from tensorflow.keras.models import load_model
 #Load Model and Scaler
 model = load_model("backend/lstm_model.h5")
 scaler = joblib.load("backend/scaler.pkl")
-st.title("Sandrapalli's AI Investment Prediction Dashboard")
+st.title("NexusTrade AI Dashboard")
 st.write("Enter last 90 days stock values (comma separated):")
 user_input = st.text_area("Stock Data (90 values)")
 if st.button("Predict"):
